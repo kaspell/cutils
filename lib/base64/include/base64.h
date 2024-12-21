@@ -1,7 +1,10 @@
 #ifndef base64_h
 #define base64_h
 
-unsigned char *b64decode(unsigned char *enc);
-unsigned char *b64encode(unsigned char *src);
+#include "types.h"
+
+
+u8 *b64decode(u8 *enc);
+u8 *b64encode(u8 *src);
 
 #endif
